@@ -1,0 +1,20 @@
+# Raw and processed data
+data/raw/*
+data/processed/*
+
+# Output files
+outputs/query_results/*
+outputs/screenshots/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/query_results/.gitkeep
+!outputs/screenshots/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
